@@ -14,8 +14,8 @@ public class testDemo {
 	}
 	
 	@Test
-	public void modified() {
-		System.out.println("Modified test");
+	public void modifiedmethod() {
+		System.out.println("Modified method test");
 	}
 	
 	
