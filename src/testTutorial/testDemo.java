@@ -13,6 +13,12 @@ public class testDemo {
 		System.out.println("I will execute at the end");
 	}
 	
+	@Test
+	public void modified() {
+		System.out.println("Modified test");
+	}
+	
+	
 	@Test(dataProvider = "getData")
 	public void demo(String usname, String passwd) {
 		System.out.println("Hello");
