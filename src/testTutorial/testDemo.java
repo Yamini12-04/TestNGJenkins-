@@ -18,6 +18,10 @@ public class testDemo {
 		System.out.println("Modified method test");
 	}
 	
+	@Test
+	public void anothermethod() {
+		System.out.println("Another method test");
+	}
 	
 	@Test(dataProvider = "getData")
 	public void demo(String usname, String passwd) {
